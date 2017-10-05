@@ -10,7 +10,7 @@ Python 2.7.13 on Linux</br>
 3、UseModel.py生成预测文件Data_get.py</br>
 <pre>
 <b>文件作用</b>：整理相关数据，获取训练数据集文件以及测试数据集文件</br>
-<b>生成文件说明</b>：'Team_elo.csv'队伍Elo天梯积分数据</br>
+<b>生成文件说明</b>：'Team_elo.csv'队伍Elo天梯积分数据
             'TeamSRS.csv'队伍平均胜率，得分，SRS等数据
             'TeamTotal.csv'队伍三分命中，出手，两分命中，出手等数据
             'TeamData_win.csv'训练集中队伍比赛胜负情况数据
