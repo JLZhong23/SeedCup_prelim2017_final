@@ -8,14 +8,14 @@ Python 2.7.13 on Linux</br>
 1、Data_get.py生成所需数据</br>
 2、CNN.py对数据进行训练</br>
 3、UseModel.py生成预测文件Data_get.py</br>
-文件作用：整理相关数据，获取训练数据集文件以及测试数据集文件</br>
-生成文件说明：'Team_elo.csv'队伍Elo天梯积分数据</br>
+<b>文件作用</b>：整理相关数据，获取训练数据集文件以及测试数据集文件</br>
+<b>生成文件说明</b>：'Team_elo.csv'队伍Elo天梯积分数据</br>
             'TeamSRS.csv'队伍平均胜率，得分，SRS等数据
             'TeamTotal.csv'队伍三分命中，出手，两分命中，出手等数据
             'TeamData_win.csv'训练集中队伍比赛胜负情况数据
             'TeamDataTrain.csv'最终训练使用数据
             'TeamDataTest.csv'需要预测比赛的相关数据
-文件使用说明：直接python2 运行文件
+<b>文件使用说明</b>：直接python2 运行文件
 #### CNN.py</br>
 文件说明：训练模型搭建，使用一层卷积层，一层池化，一层全连接隐藏神经元，一层全连接输出</br>
 <b><li>卷积层</b>：使用3×3卷积窗口，一个输入通道，64个卷积核</br>
